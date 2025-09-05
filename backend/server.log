@@ -1,0 +1,3560 @@
+🚀 Server running on port 5001
+📧 Email configured for: alphanxzen@gmail.com
+🔍 GET /api/hr/document-templates - 2025-09-05T08:00:32.412Z
+🔍 HR route middleware hit: GET /document-templates
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:26.875Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:26.877Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:26.976Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:26.977Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:01:26.995Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:26.995Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:26.998Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.000Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:27.684Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:27.686Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.699Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.699Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:27.700Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/master - 2025-09-05T08:01:27.702Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.703Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.703Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:27.900Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:27.900Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.916Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.917Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:27.917Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.918Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:27.919Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:27.919Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.136Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.137Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.162Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.163Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.167Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.168Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.173Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.175Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.351Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.352Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.369Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.370Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.371Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.371Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.371Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.373Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.556Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.557Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.566Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.567Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.568Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.568Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.568Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.568Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.723Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.723Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.733Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.734Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.735Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.736Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.736Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.737Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.898Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:28.898Z
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.910Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.911Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.911Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.911Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/employees - 2025-09-05T08:01:28.912Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:01:28.913Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:01:29.069Z
+🔍 GET /api/auth/me - 2025-09-05T08:01:29.070Z
+🔍 GET /api/hr/master - 2025-09-05T08:01:29.092Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:29.093Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:01:29.095Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:01:29.096Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:29.098Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:01:29.103Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:01:30.774Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/document-templates - 2025-09-05T08:01:30.775Z
+🔍 HR route middleware hit: GET /document-templates
+🔍 GET /api/hr/master - 2025-09-05T08:01:30.775Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:01:30.776Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:01:30.780Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/document-templates - 2025-09-05T08:01:30.781Z
+🔍 HR route middleware hit: GET /document-templates
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:01:30.783Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:01:30.784Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:04:44.357Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:04:44.389Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:04:44.391Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:04:44.391Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:04:54.234Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:04:54.236Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:04:54.237Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:04:54.238Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:04:58.224Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:04:58.227Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:04:58.227Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:04:58.228Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:05:10.231Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:05:10.233Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:05:10.233Z
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:05:10.235Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:05:24.244Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:05:24.246Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:05:24.247Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:05:24.248Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/documents/requirements - 2025-09-05T08:05:49.957Z
+🔍 GET /api/auth/me - 2025-09-05T08:06:13.581Z
+🔍 GET /api/auth/me - 2025-09-05T08:06:13.597Z
+🔍 GET /api/hr/employees - 2025-09-05T08:06:13.677Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:06:13.679Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:06:13.687Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:06:13.688Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:06:13.692Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:06:13.695Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employee-forms - 2025-09-05T08:06:15.027Z
+🔍 HR route middleware hit: GET /employee-forms
+🔍 GET /api/hr/master-managers - 2025-09-05T08:06:15.029Z
+🔍 HR route middleware hit: GET /master-managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master-managers - 2025-09-05T08:06:15.031Z
+🔍 HR route middleware hit: GET /master-managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employee-forms - 2025-09-05T08:06:15.032Z
+🔍 HR route middleware hit: GET /employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:06:17.758Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:06:17.760Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:06:17.761Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 GET /api/documents/requirements - 2025-09-05T08:06:17.762Z
+🔍 GET /api/documents/requirements - 2025-09-05T08:06:17.763Z
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:06:17.764Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:06:17.770Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:06:17.776Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:12:23.616Z
+🔍 GET /api/auth/me - 2025-09-05T08:12:23.672Z
+🔍 GET /api/hr/employees - 2025-09-05T08:12:23.690Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:12:23.691Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:12:23.755Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:12:23.785Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:12:23.787Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:12:23.790Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/auth/me - 2025-09-05T08:12:24.444Z
+🔍 GET /api/auth/me - 2025-09-05T08:12:24.447Z
+🔍 GET /api/hr/employees - 2025-09-05T08:12:24.455Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:12:24.455Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:12:24.459Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:12:24.460Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:12:24.468Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:12:24.472Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:12:27.091Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:12:27.094Z
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:12:27.095Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/documents/requirements - 2025-09-05T08:12:27.096Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:12:27.097Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:12:27.097Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:12:27.100Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:12:27.104Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/onboarded - 2025-09-05T08:12:34.691Z
+🔍 HR route middleware hit: GET /onboarded
+🔍 GET /api/hr/managers - 2025-09-05T08:12:34.692Z
+🔍 HR route middleware hit: GET /managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/managers - 2025-09-05T08:12:34.700Z
+🔍 HR route middleware hit: GET /managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/onboarded - 2025-09-05T08:12:34.705Z
+🔍 HR route middleware hit: GET /onboarded
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 PUT /api/hr/onboarded/6/assign - 2025-09-05T08:15:17.647Z
+🔍 HR route middleware hit: PUT /onboarded/6/assign
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Assignment request body: {
+  name: 'stalin',
+  companyEmail: 'jstalin@nxzen.com',
+  manager: 'Luffy D',
+  manager2: '',
+  manager3: ''
+}
+🔍 Assignment request params: { id: '6' }
+🔍 Assigning details to onboarded employee: {
+  id: '6',
+  name: 'stalin',
+  companyEmail: 'jstalin@nxzen.com',
+  manager: 'Luffy D'
+}
+🔍 Employment type for assignment: Intern (onboarded: null, form: Intern)
+🔢 Generated Employee ID: 628220
+✅ Employee moved to master table successfully
+✅ Manager-employee mappings created successfully
+🔍 GET /api/hr/onboarded - 2025-09-05T08:15:17.753Z
+🔍 HR route middleware hit: GET /onboarded
+🔍 GET /api/hr/employees - 2025-09-05T08:15:17.753Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:15:17.754Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr-config/managers - 2025-09-05T08:15:45.565Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:15:45.577Z
+🔍 POST /api/auth/login - 2025-09-05T08:16:20.371Z
+🔍 GET /api/auth/me - 2025-09-05T08:16:20.550Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:16:20.551Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:16:20.552Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:16:20.553Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:16:20.593Z
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:16:20.595Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:16:20.595Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:16:20.596Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:16:20.598Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:16:20.599Z
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/attendance/settings - 2025-09-05T08:16:22.166Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:16:22.171Z
+🔍 Attendance route - req.user: { userId: 43, email: 'jstalin@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 43
+🔍 GET /api/attendance/settings - 2025-09-05T08:16:22.178Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:16:22.185Z
+🔍 Attendance route - req.user: { userId: 43, email: 'jstalin@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 43
+🔍 POST /api/attendance/mark - 2025-09-05T08:16:40.804Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:16:40.816Z
+🔍 Attendance route - req.user: { userId: 43, email: 'jstalin@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 43
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:16:48.021Z
+🔍 Attendance route - req.user: { userId: 43, email: 'jstalin@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 43
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:16:50.155Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:16:50.156Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:16:50.157Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:16:50.163Z
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:16:50.166Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:16:50.167Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/leave/types - 2025-09-05T08:16:51.319Z
+🔍 GET /api/leave/system-info - 2025-09-05T08:16:51.324Z
+🔍 GET /api/leave/balance - 2025-09-05T08:16:51.325Z
+🔍 GET /api/leave/my-leave-type-balances - 2025-09-05T08:16:51.327Z
+🔍 GET /api/leave/my-requests - 2025-09-05T08:16:51.330Z
+🔍 GET /api/leave/system-info - 2025-09-05T08:16:51.342Z
+🔍 GET /api/leave/types - 2025-09-05T08:16:51.342Z
+🔍 GET /api/leave/balance - 2025-09-05T08:16:51.343Z
+🔍 Fetching leave requests for user ID: 43
+🔍 Leave requests with manager data: []
+🔍 GET /api/leave/my-requests - 2025-09-05T08:16:51.352Z
+🔍 Fetching leave requests for user ID: 43
+🔍 Leave requests with manager data: []
+🔍 GET /api/leave/my-leave-type-balances - 2025-09-05T08:16:51.356Z
+🔍 POST /api/leave/submit - 2025-09-05T08:17:01.560Z
+🔍 Leave request received: {
+  leaveType: 'Casual Leave',
+  fromDate: '2025-09-09',
+  toDate: null,
+  halfDay: false,
+  reason: 'bdsvcjsdvcj',
+  totalDays: 1
+}
+🔍 Request body types: {
+  leaveType: 'string',
+  fromDate: 'string',
+  toDate: 'object',
+  reason: 'string',
+  halfDay: 'boolean'
+}
+🔍 User: { userId: 43, email: 'jstalin@nxzen.com', role: 'employee' }
+🔍 Found managers for employee 43 : [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+🔍 Manager emails: [ { name: 'Luffy D', email: 'strawhatluff124@gmail.com' } ]
+🔍 Manager count: 1
+🔍 Manager 1: {
+  name: 'Luffy D',
+  email: 'strawhatluff124@gmail.com',
+  id: 'ae2d66',
+  user_id: 42
+}
+🔍 Retrieved managers: [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+🔍 Managers found: [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+📧 Sending email to PRIMARY manager only: strawhatluff124@gmail.com
+📧 sendLeaveRequestToManager called with: {
+  managerEmail: 'strawhatluff124@gmail.com',
+  leaveRequest: { id: 10, employeeName: 'stalin J' }
+}
+📧 Note: Email sent only to primary manager. Optional managers (manager2, manager3) will not receive emails.
+🔍 GET /api/leave/balance - 2025-09-05T08:17:01.611Z
+🔍 GET /api/leave/my-requests - 2025-09-05T08:17:01.612Z
+🔍 Fetching leave requests for user ID: 43
+🔍 Leave requests with manager data: [
+  {
+    id: 10,
+    from_date: 2025-09-08T18:30:00.000Z,
+    manager_name: 'Luffy D',
+    current_manager_name: undefined
+  }
+]
+✅ Leave request email sent to manager: strawhatluff124@gmail.com
+📧 Email sent to primary manager: true
+🔍 GET /api/leave/approve/10 - 2025-09-05T08:17:21.640Z
+✅ Manager approval notification sent to HR: hr@nxzen.com
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:17:31.662Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:17:31.679Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:17:31.680Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:17:31.727Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 43
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:17:31.728Z
+🔍 Query result: [
+  {
+    id: 26,
+    employee_id: 43,
+    type: 'Intern',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'jstalin826@gmail.com',
+      phone: '6799866576',
+      address: 'xbjjhsdb',
+      education: 'hxbshjb',
+      experience: '',
+      submittedAt: '2025-09-05T05:56:51.218Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-05T05:53:52.004Z,
+    updated_at: 2025-09-05T06:03:52.006Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 26,
+  employee_id: 43,
+  type: 'Intern',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'jstalin826@gmail.com',
+    phone: '6799866576',
+    address: 'xbjjhsdb',
+    education: 'hxbshjb',
+    experience: '',
+    submittedAt: '2025-09-05T05:56:51.218Z',
+    emergencyContact: {
+      name: 'dshjbhjdc',
+      phone: '7687876895',
+      relationship: 'jhbdsjbs'
+    },
+    emergencyContact2: { name: 'yegueyw', phone: '4786786876', relationship: 'hjcbsdhjb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-05T05:53:52.004Z,
+  updated_at: 2025-09-05T06:03:52.006Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:17:31.731Z
+🔍 Role check - User ID: 43, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/expenses/categories - 2025-09-05T08:17:32.597Z
+🔍 GET /api/expenses/categories - 2025-09-05T08:17:32.600Z
+🔍 POST /api/expenses/submit - 2025-09-05T08:18:28.176Z
+🔍 Expense request received: [Object: null prototype] {
+  expenseCategory: 'Travel',
+  expenseType: 'Taxi',
+  amount: '500',
+  currency: 'INR',
+  description: 'vcdghvchg',
+  expenseDate: '2025-09-03',
+  taxIncluded: 'false'
+}
+🔍 Files uploaded: [
+  {
+    fieldname: 'attachments',
+    originalname: '1-a0a2d4c7-0bc6-4c06-900e-0db6f449656e.pdf',
+    encoding: '7bit',
+    mimetype: 'application/pdf',
+    destination: '/Users/stalin_j/Downloads/test2/onboard/backend/uploads/expenses',
+    filename: 'attachments-1757060308205-180902521.pdf',
+    path: '/Users/stalin_j/Downloads/test2/onboard/backend/uploads/expenses/attachments-1757060308205-180902521.pdf',
+    size: 120461
+  }
+]
+🔍 Found managers for employee 43 : [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+🔍 Retrieved managers: [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+🔍 Managers found: [
+  {
+    id: 42,
+    manager_id: 'ae2d66',
+    manager_name: 'Luffy D',
+    email: 'strawhatluff124@gmail.com'
+  }
+]
+📧 Sending email to PRIMARY manager only: strawhatluff124@gmail.com
+📧 sendExpenseRequestToManager called with: {
+  managerEmail: 'strawhatluff124@gmail.com',
+  expenseRequest: { id: 3, employeeName: 'stalin J' }
+}
+📧 Note: Email sent only to primary manager. Optional managers (manager2, manager3) will not receive emails.
+✅ Expense request email sent to manager: strawhatluff124@gmail.com
+📧 Email sent to primary manager: true
+🔍 GET /api/expenses/approve/3 - 2025-09-05T08:18:39.663Z
+✅ Manager approval notification sent to HR: hr@nxzen.com
+🔍 POST /api/auth/login - 2025-09-05T08:19:01.545Z
+🔍 GET /api/auth/me - 2025-09-05T08:19:01.676Z
+🔍 GET /api/hr/employees - 2025-09-05T08:19:01.691Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:19:01.694Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:19:01.732Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:19:01.735Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:19:01.738Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:19:01.750Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:19:04.726Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 GET /api/hr/master - 2025-09-05T08:19:04.727Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/documents/requirements - 2025-09-05T08:19:04.727Z
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:19:04.728Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/documents/requirements - 2025-09-05T08:19:04.729Z
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:19:04.731Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/approved-employee-forms - 2025-09-05T08:19:04.760Z
+🔍 HR route middleware hit: GET /approved-employee-forms
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/document-collection - 2025-09-05T08:19:04.765Z
+🔍 Document collection request: GET /api/hr/document-collection
+🔍 Request body: {}
+🔍 Request params: {}
+🔍 HR route middleware hit: GET /document-collection
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/onboarded - 2025-09-05T08:19:13.604Z
+🔍 HR route middleware hit: GET /onboarded
+🔍 GET /api/hr/managers - 2025-09-05T08:19:13.606Z
+🔍 HR route middleware hit: GET /managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/managers - 2025-09-05T08:19:13.610Z
+🔍 HR route middleware hit: GET /managers
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/onboarded - 2025-09-05T08:19:13.611Z
+🔍 HR route middleware hit: GET /onboarded
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr-config/managers - 2025-09-05T08:19:15.966Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:19:15.970Z
+🔍 GET /api/leave/types - 2025-09-05T08:19:17.586Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:19:17.587Z
+🔍 GET /api/leave/all - 2025-09-05T08:19:17.588Z
+🔍 GET /api/leave/types - 2025-09-05T08:19:17.633Z
+🔍 GET /api/leave/all - 2025-09-05T08:19:17.639Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:19:17.640Z
+🔍 PUT /api/leave/hr/10/approve - 2025-09-05T08:19:20.427Z
+❌ Error processing HR approval: error: column "leave_type" of relation "leave_balances" does not exist
+    at /Users/stalin_j/Downloads/test2/onboard/backend/node_modules/pg/lib/client.js:545:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/stalin_j/Downloads/test2/onboard/backend/routes/leave.js:1354:28 {
+  length: 904,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: '48',
+  internalQuery: 'INSERT INTO leave_balances (employee_id, year, leave_type, total_allocated, leaves_taken, leaves_remaining)\n' +
+    '    VALUES (p_employee_id, p_year, p_leave_type, total_allocated, leaves_taken, total_allocated - leaves_taken)\n' +
+    '    ON CONFLICT (employee_id, year, leave_type) \n' +
+    '    DO UPDATE SET \n' +
+    '        total_allocated = EXCLUDED.total_allocated,\n' +
+    '        leaves_taken = EXCLUDED.leaves_taken,\n' +
+    '        leaves_remaining = EXCLUDED.leaves_remaining,\n' +
+    '        updated_at = CURRENT_TIMESTAMP',
+  where: 'PL/pgSQL function update_leave_balance(integer,integer,character varying) line 24 at SQL statement\n' +
+    'SQL statement "SELECT update_leave_balance(NEW.employee_id, EXTRACT(YEAR FROM NEW.from_date)::INTEGER, NEW.leave_type)"\n' +
+    'PL/pgSQL function trigger_update_leave_balance() line 4 at PERFORM',
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_target.c',
+  line: '1070',
+  routine: 'checkInsertTargets'
+}
+❌ Error stack: error: column "leave_type" of relation "leave_balances" does not exist
+    at /Users/stalin_j/Downloads/test2/onboard/backend/node_modules/pg/lib/client.js:545:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /Users/stalin_j/Downloads/test2/onboard/backend/routes/leave.js:1354:28
+❌ Error message: column "leave_type" of relation "leave_balances" does not exist
+❌ Error code: 42703
+✅ Transaction rolled back due to error
+🔍 GET /api/auth/me - 2025-09-05T08:35:01.729Z
+🔍 GET /api/auth/me - 2025-09-05T08:35:01.934Z
+🔍 GET /api/hr/employees - 2025-09-05T08:35:01.966Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:35:01.966Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:35:02.015Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:35:02.045Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:35:02.049Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:35:02.051Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/leave/types - 2025-09-05T08:35:04.603Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:35:04.604Z
+🔍 GET /api/leave/all - 2025-09-05T08:35:04.605Z
+🔍 GET /api/leave/types - 2025-09-05T08:35:04.631Z
+🔍 GET /api/leave/all - 2025-09-05T08:35:04.638Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:35:04.639Z
+🔍 PUT /api/leave/hr/10/approve - 2025-09-05T08:35:06.940Z
+✅ Transaction committed successfully
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:35:06.979Z
+🔍 GET /api/leave/all - 2025-09-05T08:35:06.979Z
+✅ Leave approval notification sent to employee: jstalin@nxzen.com
+🔍 PUT /api/leave/hr/10/approve - 2025-09-05T08:35:22.708Z
+🔍 Updating leave balance: {
+  employeeId: 43,
+  year: 2025,
+  totalDays: 1,
+  leaveType: 'Casual Leave',
+  originalValue: '1.0'
+}
+🔍 Paid Leave - Deducting from annual allocation
+🔍 Updating leave type balance for: Casual Leave
+✅ Leave type balance updated successfully for: Casual Leave
+✅ Leave balance updated successfully
+✅ Created 1 attendance records
+✅ Transaction committed successfully
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:35:22.733Z
+🔍 GET /api/leave/all - 2025-09-05T08:35:22.734Z
+🔍 GET /api/expenses/hr/pending - 2025-09-05T08:35:26.072Z
+🔍 GET /api/expenses/hr/pending - 2025-09-05T08:35:26.081Z
+✅ Leave approval notification sent to employee: jstalin@nxzen.com
+🔍 PUT /api/expenses/hr/3/approve - 2025-09-05T08:35:30.701Z
+🔍 GET /api/expenses/all - 2025-09-05T08:35:31.951Z
+✅ Expense approval notification sent to employee: jstalin@nxzen.com
+🔍 GET /api/expenses/analytics - 2025-09-05T08:35:40.720Z
+🔍 GET /api/expenses/analytics - 2025-09-05T08:35:40.747Z
+🔍 GET /api/hr-config/leave-types/all - 2025-09-05T08:35:41.382Z
+🔍 GET /api/hr-config/system-settings - 2025-09-05T08:35:41.383Z
+🔍 GET /api/hr-config/departments/all - 2025-09-05T08:35:41.384Z
+🔍 GET /api/hr-config/managers/all - 2025-09-05T08:35:41.385Z
+🔍 GET /api/hr-config/system-settings - 2025-09-05T08:35:41.387Z
+🔍 GET /api/hr-config/leave-types/all - 2025-09-05T08:35:41.389Z
+🔍 GET /api/hr-config/managers/all - 2025-09-05T08:35:41.391Z
+🔍 GET /api/hr-config/departments/all - 2025-09-05T08:35:41.392Z
+🔍 POST /api/auth/login - 2025-09-05T08:36:12.872Z
+🔍 GET /api/auth/me - 2025-09-05T08:36:13.098Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:36:13.099Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:36:13.102Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:36:13.104Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:36:13.178Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:36:13.180Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:36:13.183Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:36:13.184Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:36:13.188Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:36:13.188Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/attendance/settings - 2025-09-05T08:36:15.442Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:36:15.443Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T08:36:15.459Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:36:15.471Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:36:23.283Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:36:27.409Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:36:27.410Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:36:27.411Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:36:27.414Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:36:27.416Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:36:27.416Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 POST /api/auth/login - 2025-09-05T08:36:39.629Z
+🔍 GET /api/auth/me - 2025-09-05T08:36:39.764Z
+🔍 GET /api/hr/employees - 2025-09-05T08:36:39.784Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:36:39.785Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:36:39.790Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:36:39.791Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:36:39.796Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:36:39.802Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:38:33.684Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:38:35.804Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:38:35.807Z
+🔍 GET /api/leave/types - 2025-09-05T08:38:37.831Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:38:37.832Z
+🔍 GET /api/leave/all - 2025-09-05T08:38:37.833Z
+🔍 GET /api/leave/all - 2025-09-05T08:38:37.860Z
+🔍 GET /api/leave/types - 2025-09-05T08:38:37.862Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:38:37.866Z
+🔍 PUT /api/leave/hr/7/approve - 2025-09-05T08:38:51.458Z
+✅ Transaction committed successfully
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:38:51.498Z
+🔍 GET /api/leave/all - 2025-09-05T08:38:51.500Z
+✅ Leave approval notification sent to employee: hr@nxzen.com
+🔍 GET /api/attendance/stats - 2025-09-05T08:39:48.915Z
+🔍 GET /api/auth/me - 2025-09-05T08:41:18.231Z
+🔍 GET /api/auth/me - 2025-09-05T08:41:18.261Z
+🔍 GET /api/hr/employees - 2025-09-05T08:41:18.335Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:41:18.338Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:41:18.359Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:41:18.360Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:41:18.362Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:41:18.363Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/attendance/stats - 2025-09-05T08:41:20.454Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:41:20.455Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:41:20.464Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:41:20.465Z
+🔍 GET /api/auth/me - 2025-09-05T08:42:16.205Z
+🔍 GET /api/auth/me - 2025-09-05T08:42:16.216Z
+🔍 GET /api/hr/employees - 2025-09-05T08:42:16.227Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:42:16.228Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:42:16.241Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T08:42:16.242Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:42:16.244Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:42:16.246Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:06.310Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:06.316Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:06.350Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:06.351Z
+🔍 GET /api/auth/me - 2025-09-05T08:44:27.211Z
+🔍 GET /api/auth/me - 2025-09-05T08:44:27.214Z
+🔍 GET /api/hr/employees - 2025-09-05T08:44:27.298Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:44:27.299Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:44:27.308Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:44:27.308Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:44:27.311Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:44:27.312Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:29.500Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:29.501Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:29.504Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:29.505Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:44:40.878Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:44:40.881Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:49.389Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:49.390Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:49.395Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:49.397Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:44:50.289Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:44:50.297Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:56.022Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:56.024Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:44:56.029Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:44:56.030Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:07.216Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:14.191Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:16.189Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:22.196Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:26.202Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:41.479Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:48:44.191Z
+🔍 GET /api/auth/me - 2025-09-05T08:49:10.593Z
+🔍 GET /api/auth/me - 2025-09-05T08:49:10.596Z
+🔍 GET /api/hr/employees - 2025-09-05T08:49:10.689Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T08:49:10.690Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:49:10.709Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:49:10.711Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T08:49:10.713Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T08:49:10.719Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr-config/managers - 2025-09-05T08:49:12.762Z
+🔍 GET /api/hr-config/managers - 2025-09-05T08:49:12.766Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:49:14.078Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:49:14.079Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:49:14.083Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:49:14.085Z
+🔍 GET /api/leave/types - 2025-09-05T08:49:18.717Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:49:18.719Z
+🔍 GET /api/leave/all - 2025-09-05T08:49:18.720Z
+🔍 GET /api/leave/types - 2025-09-05T08:49:18.748Z
+🔍 GET /api/leave/hr/pending - 2025-09-05T08:49:18.750Z
+🔍 GET /api/leave/all - 2025-09-05T08:49:18.754Z
+🔍 GET /api/expenses/hr/pending - 2025-09-05T08:49:20.307Z
+🔍 GET /api/expenses/hr/pending - 2025-09-05T08:49:20.317Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:49:22.304Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:49:22.307Z
+🔍 GET /api/attendance/stats - 2025-09-05T08:49:22.311Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T08:49:22.312Z
+🔍 POST /api/auth/login - 2025-09-05T08:50:16.299Z
+🔍 GET /api/auth/me - 2025-09-05T08:50:16.423Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:50:16.424Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:50:16.425Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:50:16.426Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:50:16.447Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:50:16.447Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:50:16.448Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:50:16.457Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:50:16.458Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:50:16.459Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/attendance/settings - 2025-09-05T08:50:18.023Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:50:18.023Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T08:50:18.037Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:50:18.093Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:05.452Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:05.465Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:05.465Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:05.602Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:05.619Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:05.619Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/attendance/settings - 2025-09-05T08:59:23.621Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:59:23.623Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T08:59:23.627Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:59:23.662Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:24.934Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:24.935Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:24.937Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:24.941Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:24.946Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:24.947Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:34.196Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:34.201Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:34.202Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:34.209Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:34.210Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:34.211Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/attendance/settings - 2025-09-05T08:59:42.254Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:59:42.258Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T08:59:42.263Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T08:59:42.283Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:44.574Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:44.576Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:44.577Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-form - 2025-09-05T08:59:44.581Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T08:59:44.582Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T08:59:44.584Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 POST /api/auth/login - 2025-09-05T09:00:13.213Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:00:13.360Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:00:13.370Z
+🔍 GET /api/auth/me - 2025-09-05T09:00:13.371Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:00:13.372Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:00:13.380Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:00:13.380Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:00:13.389Z
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:00:13.391Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:00:13.413Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:00:13.418Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/attendance/settings - 2025-09-05T09:00:35.864Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:00:35.866Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T09:00:35.887Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:00:35.909Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:00:38.990Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:01:18.320Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:01:27.721Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:01:27.724Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:01:27.729Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:01:27.762Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:01:27.764Z
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:01:27.766Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/attendance/settings - 2025-09-05T09:02:09.196Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:09.198Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T09:02:09.377Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:09.579Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:12.132Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:02:26.033Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:02:26.037Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:02:26.044Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:02:26.067Z
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:02:26.069Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:02:26.074Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 GET /api/attendance/settings - 2025-09-05T09:02:30.690Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:30.691Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/settings - 2025-09-05T09:02:30.694Z
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:30.696Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:02:45.384Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:03:15.022Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:03:24.294Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/attendance/my-attendance - 2025-09-05T09:03:27.906Z
+🔍 Attendance route - req.user: { userId: 41, email: 'stalinj@nxzen.com', role: 'employee' }
+🔍 Attendance route - userId: 41
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:08:37.669Z
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:08:37.687Z
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:08:37.689Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 GET /api/employee/onboarding-form - 2025-09-05T09:08:37.734Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 GET /api/employee/is-onboarded - 2025-09-05T09:08:37.740Z
+🔍 GET /api/employee/onboarding-status - 2025-09-05T09:08:37.741Z
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Role check - User ID: 41, Role: employee, Required roles: employee
+✅ Access granted - User role 'employee' has required permissions
+🔍 Checking onboarding status for user ID: 41
+🔍 Query result: [
+  {
+    id: 24,
+    employee_id: 41,
+    type: 'Full-Time',
+    form_data: {
+      doj: '2025-09-01',
+      name: 'stalin',
+      email: 'stalinj4747@gmail.com',
+      phone: '5687687678',
+      address: 'jkdbsjbc',
+      education: 'kudscbsu',
+      experience: '',
+      submittedAt: '2025-09-04T20:23:48.000Z',
+      emergencyContact: [Object],
+      emergencyContact2: [Object]
+    },
+    files: [],
+    status: 'approved',
+    submitted_at: 2025-09-04T20:20:49.757Z,
+    updated_at: 2025-09-04T20:24:38.333Z,
+    reviewed_by: null,
+    reviewed_at: null,
+    review_notes: null,
+    assigned_manager: null,
+    manager2_name: null,
+    manager3_name: null,
+    draft_data: null,
+    documents_uploaded: null,
+    master_status: 'active'
+  }
+]
+🔍 Form found: {
+  id: 24,
+  employee_id: 41,
+  type: 'Full-Time',
+  form_data: {
+    doj: '2025-09-01',
+    name: 'stalin',
+    email: 'stalinj4747@gmail.com',
+    phone: '5687687678',
+    address: 'jkdbsjbc',
+    education: 'kudscbsu',
+    experience: '',
+    submittedAt: '2025-09-04T20:23:48.000Z',
+    emergencyContact: { name: 'sbdkjbsdkj', phone: '3828923789', relationship: 'hdbhds' },
+    emergencyContact2: { name: 'jdbdshj', phone: '9322390832', relationship: 'dscsjhdb' }
+  },
+  files: [],
+  status: 'approved',
+  submitted_at: 2025-09-04T20:20:49.757Z,
+  updated_at: 2025-09-04T20:24:38.333Z,
+  reviewed_by: null,
+  reviewed_at: null,
+  review_notes: null,
+  assigned_manager: null,
+  manager2_name: null,
+  manager3_name: null,
+  draft_data: null,
+  documents_uploaded: null,
+  master_status: 'active'
+}
+🔍 POST /api/auth/login - 2025-09-05T09:08:50.475Z
+🔍 GET /api/auth/me - 2025-09-05T09:08:50.610Z
+🔍 GET /api/hr/employees - 2025-09-05T09:08:50.646Z
+🔍 HR route middleware hit: GET /employees
+🔍 GET /api/hr/master - 2025-09-05T09:08:50.647Z
+🔍 HR route middleware hit: GET /master
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/master - 2025-09-05T09:08:50.660Z
+🔍 HR route middleware hit: GET /master
+🔍 GET /api/hr/employees - 2025-09-05T09:08:50.661Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T09:08:50.664Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/hr/employees - 2025-09-05T09:08:50.666Z
+🔍 HR route middleware hit: GET /employees
+🔍 Role check - User ID: 1, Role: hr, Required roles: hr
+✅ Access granted - User role 'hr' has required permissions
+🔍 GET /api/attendance/hr/details - 2025-09-05T09:10:31.287Z
+🔍 GET /api/attendance/stats - 2025-09-05T09:10:31.295Z
+🔍 GET /api/attendance/stats - 2025-09-05T09:10:31.334Z
+🔍 GET /api/attendance/hr/details - 2025-09-05T09:10:31.335Z

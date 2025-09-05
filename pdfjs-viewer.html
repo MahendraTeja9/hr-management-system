@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF.js Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #pdfViewer { width: 100%; height: 600px; border: 1px solid #ccc; }
+        .loading { text-align: center; padding: 50px; }
+        .error { color: red; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h2>PDF.js Viewer (Firefox Compatible)</h2>
+    
+    <div id="pdfViewer">
+        <div id="loading" class="loading">Loading PDF...</div>
+        <canvas id="pdfCanvas" style="display: none;"></canvas>
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script>
+        // Set up PDF.js worker
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        
+        // Load PDF
+        pdfjsLib.getDocument('http://localhost:5001/uploads/documents/documents-1756718792889-234149447.pdf').promise
+            .then(function(pdf) {
+                console.log('PDF loaded successfully');
+                document.getElementById('loading').style.display = 'none';
+                
+                // Render first page
+                return pdf.getPage(1);
+            })
+            .then(function(page) {
+                const canvas = document.getElementById('pdfCanvas');
+                const context = canvas.getContext('2d');
+                
+                const viewport = page.getViewport({scale: 1.5});
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                
+                page.render(renderContext);
+                canvas.style.display = 'block';
+            })
+            .catch(function(error) {
+                console.error('Error loading PDF:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').innerHTML = 
+                    'Error loading PDF. <a href="http://localhost:5001/uploads/documents/documents-1756718792889-234149447.pdf" target="_blank">Open in New Tab</a>';
+            });
+    </script>
+</body>
+</html>
