@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
-require("dotenv").config({ path: "./config.env" });
+require("dotenv").config({ path: "./.env" });
 
 const authRoutes = require("./routes/auth");
 const hrRoutes = require("./routes/hr");
@@ -16,7 +16,7 @@ const managerRoutes = require("./routes/manager");
 const { connectDB } = require("./config/database");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5008;
 
 // Security middleware
 app.use(helmet());
@@ -33,11 +33,11 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
-// CORS - Allow all origins for development
+// CORS - Production configuration
 app.use(
   cors({
-    origin: "*",
-    credentials: false,
+    origin: process.env.CORS_ORIGIN || "http://149.102.158.71:3008",
+    credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD"],
     allowedHeaders: [
       "Content-Type",
@@ -59,7 +59,7 @@ app.options("*", cors());
 
 // Additional CORS headers for all responses
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN || "http://149.102.158.71:3008");
   res.header(
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD"
@@ -68,7 +68,7 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Headers",
     "Content-Type, Authorization, X-Requested-With, Accept, Origin"
   );
-  res.header("Access-Control-Allow-Credentials", "false");
+  res.header("Access-Control-Allow-Credentials", "true");
   res.header("Access-Control-Max-Age", "86400"); // 24 hours
   next();
 });

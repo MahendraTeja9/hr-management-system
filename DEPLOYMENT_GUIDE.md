@@ -1,490 +1,438 @@
-# 🚀 HR Onboard System - Complete Deployment Guide
+# Complete Deployment Guide: GitHub → Contabo Server
 
-## Table of Contents
+## Prerequisites
 
-1. [Prerequisites](#prerequisites)
-2. [Database Setup](#database-setup)
-3. [Application Setup](#application-setup)
-4. [Configuration](#configuration)
-5. [Deployment](#deployment)
-6. [Starting the Application](#starting-the-application)
-7. [Post-Deployment Setup](#post-deployment-setup)
-8. [Troubleshooting](#troubleshooting)
+### On Your Local Machine:
+- Git installed
+- GitHub account
+- Your project files ready
 
----
+### On Your Contabo Server:
+- Ubuntu/CentOS with root access
+- Docker installed
+- Docker Compose installed
+- aaPanel installed (optional, for easier management)
 
-## 1. Prerequisites
+## Step 1: Push Code to GitHub
 
-### System Requirements
-
-- **Operating System**: Windows, macOS, or Linux
-- **Node.js**: Version 16.0 or higher
-- **PostgreSQL**: Version 12.0 or higher
-- **Git**: For version control (optional)
-
-### Install Required Software
-
-#### A. Install Node.js
-
-1. Visit [https://nodejs.org/](https://nodejs.org/)
-2. Download and install the LTS version
-3. Verify installation:
-   ```bash
-   node --version
-   npm --version
-   ```
-
-#### B. Install PostgreSQL
-
-1. Visit [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
-2. Download and install PostgreSQL for your OS
-3. During installation:
-   - Set a password for the `postgres` user (remember this!)
-   - Use default port `5432`
-   - Remember the installation directory
-4. Verify installation:
-   ```bash
-   psql --version
-   ```
-
----
-
-## 2. Database Setup
-
-### Step 1: Start PostgreSQL Service
-
-**Windows:**
-
-```cmd
-# Start PostgreSQL service
-net start postgresql-x64-14
-```
-
-**macOS:**
-
+### 1.1 Initialize Git Repository
 ```bash
-# Start PostgreSQL service
-brew services start postgresql
-# OR
-pg_ctl -D /usr/local/var/postgres start
+# In your project directory
+git init
+git add .
+git commit -m "Initial commit: Production-ready HR system"
 ```
 
-**Linux:**
+### 1.2 Create GitHub Repository
+1. Go to GitHub.com
+2. Click "New repository"
+3. Name it: `hr-management-system` (or your preferred name)
+4. Make it **Private** (recommended for production)
+5. Don't initialize with README (you already have files)
 
+### 1.3 Push to GitHub
 ```bash
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
+# Add remote origin (replace with your GitHub username)
+git remote add origin https://github.com/YOUR_USERNAME/hr-management-system.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
 ```
 
-### Step 2: Create Database
+## Step 2: Prepare Your Server
 
+### 2.1 Connect to Your Server
 ```bash
-# Connect to PostgreSQL as postgres user
-psql -U postgres
-
-# Create the database
-CREATE DATABASE onboardd;
-
-# Exit psql
-\q
+# SSH into your Contabo server
+ssh root@149.102.158.71
 ```
 
-### Step 3: Verify Database Connection
-
+### 2.2 Install Docker
 ```bash
-psql -U postgres -d onboardd -c "SELECT NOW();"
+# Update system
+apt update && apt upgrade -y
+
+# Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh get-docker.sh
+
+# Install Docker Compose
+curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
+# Verify installation
+docker --version
+docker-compose --version
 ```
 
----
-
-## 3. Application Setup
-
-### Step 1: Extract/Copy Source Code
-
-1. Extract the source code to your desired directory
-2. Navigate to the project directory:
-   ```bash
-   cd path/to/onboard
-   ```
-
-### Step 2: Verify Project Structure
-
-Your directory should contain:
-
-```
-onboard/
-├── backend/
-├── frontend/
-├── deploy.sh (Linux/macOS)
-├── deploy.bat (Windows)
-├── start-application.sh (Linux/macOS)
-├── start-application.bat (Windows)
-└── README.md
-```
-
----
-
-## 4. Configuration
-
-### Step 1: Configure Database Credentials
-
-1. Navigate to the backend directory:
-
-   ```bash
-   cd backend
-   ```
-
-2. Open `config.env` file in a text editor
-3. Update the database configuration:
-
-   ```env
-   # Database Configuration
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_NAME=onboardd
-   DB_USER=postgres
-   DB_PASSWORD=your_postgres_password_here
-
-   # Application Configuration
-   NODE_ENV=production
-   PORT=5001
-
-   # JWT Secret (change this to a secure random string)
-   JWT_SECRET=your_secure_jwt_secret_key_here
-
-   # Email Configuration (optional - for notifications)
-   EMAIL_HOST=smtp.gmail.com
-   EMAIL_PORT=587
-   EMAIL_USER=your_email@gmail.com
-   EMAIL_PASSWORD=your_app_password
-   ```
-
-4. **IMPORTANT**: Replace `your_postgres_password_here` with your actual PostgreSQL password
-
-### Step 2: Generate JWT Secret (Optional but Recommended)
-
-Generate a secure JWT secret:
-
+### 2.3 Install Git
 ```bash
-# Linux/macOS
-openssl rand -base64 32
+# Install Git
+apt install git -y
 
-# Windows (in PowerShell)
-[System.Web.Security.Membership]::GeneratePassword(32, 0)
+# Configure Git (optional)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 ```
 
----
+## Step 3: Clone and Deploy
 
-## 5. Deployment
-
-### Method 1: Automatic Deployment (Recommended)
-
-#### For Linux/macOS:
-
+### 3.1 Create Project Directory
 ```bash
-# Make the deploy script executable
-chmod +x deploy.sh
+# Create project directory
+mkdir -p /opt/hr-system
+cd /opt/hr-system
+```
 
+### 3.2 Clone Your Repository
+```bash
+# Clone your repository
+git clone https://github.com/YOUR_USERNAME/hr-management-system.git .
+
+# Or if you made it private, use SSH:
+# git clone git@github.com:YOUR_USERNAME/hr-management-system.git .
+```
+
+### 3.3 Create Production Environment File
+```bash
+# Create production environment file
+nano production.env
+```
+
+**Add this content to `production.env`:**
+```bash
+# Production Environment Configuration
+# Server: 149.102.158.71
+# Frontend: 149.102.158.71:3008
+# Backend: 149.102.158.71:5008
+
+# Database Configuration
+DB_HOST=postgres
+DB_PORT=5432
+DB_NAME=onboardd
+DB_USER=postgres
+DB_PASSWORD=YourSecurePassword123!
+
+# Server Configuration
+NODE_ENV=production
+PORT=5008
+FRONTEND_URL=http://149.102.158.71:3008
+BACKEND_URL=http://149.102.158.71:5008
+
+# JWT Configuration
+JWT_SECRET=YourSuperSecureJWTSecretKey123456789!
+JWT_EXPIRES_IN=7d
+
+# Email Configuration (Update with your SMTP settings)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_app_password_here
+FROM_EMAIL=noreply@nxzen.com
+FROM_NAME=NxZen HR System
+
+# File Upload Configuration
+MAX_FILE_SIZE=10485760
+UPLOAD_PATH=/app/uploads
+
+# CORS Configuration
+CORS_ORIGIN=http://149.102.158.71:3008
+
+# Logging
+LOG_LEVEL=info
+LOG_FILE=/app/logs/app.log
+
+# Security
+BCRYPT_ROUNDS=12
+SESSION_SECRET=YourSessionSecret123456789!
+
+# Rate Limiting
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+```
+
+**Important:** Change these values:
+- `DB_PASSWORD` - Use a strong password
+- `JWT_SECRET` - Use a long, random string
+- `SMTP_USER` and `SMTP_PASS` - Your email credentials
+- `SESSION_SECRET` - Another random string
+
+### 3.4 Add Your Database Dump
+```bash
+# Upload your onboardd.sql file to the server
+# You can use SCP, SFTP, or copy-paste the content
+
+# If using SCP from your local machine:
+# scp onboardd.sql root@149.102.158.71:/opt/hr-system/
+
+# Or create the file manually:
+nano onboardd.sql
+# Paste your database dump content here
+```
+
+### 3.5 Make Deployment Script Executable
+```bash
+# Make deployment script executable
+chmod +x deploy-production.sh
+```
+
+## Step 4: Deploy the Application
+
+### 4.1 Run Deployment Script
+```bash
 # Run the deployment script
-./deploy.sh
+./deploy-production.sh
 ```
 
-#### For Windows:
-
-```cmd
-# Run the deployment script
-deploy.bat
-```
-
-The deployment script will:
-
-- ✅ Check Node.js and npm installation
-- ✅ Install backend dependencies
-- ✅ Install frontend dependencies
-- ✅ Test database connection
-- ✅ Create all 31 database tables
-- ✅ Insert initial data (leave types, expense categories, etc.)
-- ✅ Build frontend for production
-
-### Method 2: Manual Deployment
-
-If the automatic deployment fails, follow these manual steps:
-
-#### Step 1: Install Dependencies
+### 4.2 Manual Deployment (Alternative)
+If the script doesn't work, run these commands manually:
 
 ```bash
-# Install backend dependencies
-cd backend
-npm install
+# Stop any existing containers
+docker-compose down
 
-# Install frontend dependencies
-cd ../frontend
-npm install
-cd ..
+# Build and start services
+docker-compose up --build -d
+
+# Wait for services to start
+sleep 30
+
+# Check service status
+docker-compose ps
 ```
 
-#### Step 2: Run Database Migration
+## Step 5: Verify Deployment
+
+### 5.1 Check Service Health
+```bash
+# Check if all services are running
+docker-compose ps
+
+# Check logs
+docker-compose logs -f
+```
+
+### 5.2 Test Endpoints
+```bash
+# Test frontend
+curl http://149.102.158.71:3008
+
+# Test backend
+curl http://149.102.158.71:5008/api/health
+
+# Test database connection
+docker-compose exec postgres pg_isready -U postgres -d onboardd
+```
+
+### 5.3 Run Database Migrations
+```bash
+# Run production migrations
+docker-compose exec backend node production-migration-runner.js migrate
+
+# Check migration status
+docker-compose exec backend node production-migration-runner.js status
+```
+
+## Step 6: Configure Firewall
+
+### 6.1 Open Required Ports
+```bash
+# Install UFW if not installed
+apt install ufw -y
+
+# Allow SSH
+ufw allow ssh
+
+# Allow HTTP ports
+ufw allow 3008
+ufw allow 5008
+
+# Enable firewall
+ufw enable
+
+# Check status
+ufw status
+```
+
+## Step 7: Set Up SSL (Optional but Recommended)
+
+### 7.1 Install Certbot
+```bash
+# Install Certbot
+apt install certbot -y
+```
+
+### 7.2 Get SSL Certificate
+```bash
+# Get SSL certificate (replace with your domain if you have one)
+# For IP address, you might need to use a service like Cloudflare
+certbot certonly --standalone -d your-domain.com
+```
+
+## Step 8: Access Your Application
+
+### 8.1 Default Login Credentials
+- **HR User**: `hr@nxzen.com` / `hr123`
+- **Admin User**: `admin@nxzen.com` / `admin123`
+
+### 8.2 Access URLs
+- **Frontend**: http://149.102.158.71:3008
+- **Backend API**: http://149.102.158.71:5008
+- **API Health Check**: http://149.102.158.71:5008/api/health
+
+## Step 9: Maintenance Commands
+
+### 9.1 Update Application
+```bash
+# Pull latest changes
+git pull origin main
+
+# Rebuild and restart
+docker-compose down
+docker-compose up --build -d
+```
+
+### 9.2 Backup Database
+```bash
+# Create backup
+docker-compose exec postgres pg_dump -U postgres onboardd > backup_$(date +%Y%m%d_%H%M%S).sql
+
+# Restore backup
+docker-compose exec -T postgres psql -U postgres onboardd < backup_file.sql
+```
+
+### 9.3 View Logs
+```bash
+# All services
+docker-compose logs -f
+
+# Specific service
+docker-compose logs -f backend
+docker-compose logs -f frontend
+docker-compose logs -f postgres
+```
+
+### 9.4 Restart Services
+```bash
+# Restart all services
+docker-compose restart
+
+# Restart specific service
+docker-compose restart backend
+```
+
+## Troubleshooting
+
+### Common Issues:
+
+1. **Port Already in Use**
+   ```bash
+   # Check what's using the port
+   netstat -tulpn | grep :3008
+   netstat -tulpn | grep :5008
+   
+   # Kill the process
+   kill -9 <PID>
+   ```
+
+2. **Docker Permission Issues**
+   ```bash
+   # Add user to docker group
+   usermod -aG docker $USER
+   # Logout and login again
+   ```
+
+3. **Database Connection Issues**
+   ```bash
+   # Check if PostgreSQL is running
+   docker-compose exec postgres pg_isready -U postgres
+   
+   # Check database logs
+   docker-compose logs postgres
+   ```
+
+4. **Frontend Not Loading**
+   ```bash
+   # Check nginx logs
+   docker-compose logs frontend
+   
+   # Check if backend is accessible
+   curl http://149.102.158.71:5008/api/health
+   ```
+
+## Security Recommendations
+
+1. **Change Default Passwords**
+   - Update database password in `production.env`
+   - Change JWT secret
+   - Update default user passwords
+
+2. **Configure Firewall**
+   ```bash
+   # Only allow necessary ports
+   ufw allow 22    # SSH
+   ufw allow 3008  # Frontend
+   ufw allow 5008  # Backend
+   ```
+
+3. **Regular Updates**
+   ```bash
+   # Update system packages
+   apt update && apt upgrade -y
+   
+   # Update Docker images
+   docker-compose pull
+   docker-compose up -d
+   ```
+
+## Monitoring
+
+### Check Resource Usage
+```bash
+# Check container resource usage
+docker stats
+
+# Check disk usage
+df -h
+docker system df
+```
+
+### Set Up Log Rotation
+Add this to your `docker-compose.yml`:
+```yaml
+logging:
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+```
+
+---
+
+## Quick Reference Commands
 
 ```bash
-# From the project root directory
-psql -U postgres -d onboardd -f backend/migrations/002_complete_database_setup.sql
+# Start services
+docker-compose up -d
+
+# Stop services
+docker-compose down
+
+# View logs
+docker-compose logs -f
+
+# Restart services
+docker-compose restart
+
+# Run migrations
+docker-compose exec backend node production-migration-runner.js migrate
+
+# Backup database
+docker-compose exec postgres pg_dump -U postgres onboardd > backup.sql
+
+# Update application
+git pull && docker-compose up --build -d
 ```
 
-#### Step 3: Build Frontend
-
-```bash
-cd frontend
-npm run build
-cd ..
-```
-
----
-
-## 6. Starting the Application
-
-### Method 1: Using Start Scripts (Recommended)
-
-#### For Linux/macOS:
-
-```bash
-# Make the start script executable
-chmod +x start-application.sh
-
-# Start the application
-./start-application.sh
-```
-
-#### For Windows:
-
-```cmd
-# Start the application
-start-application.bat
-```
-
-### Method 2: Manual Start
-
-#### Terminal 1 - Start Backend:
-
-```bash
-cd backend
-npm start
-```
-
-#### Terminal 2 - Start Frontend:
-
-```bash
-cd frontend
-npm start
-```
-
-### Application URLs
-
-- **Frontend**: [http://localhost:3001](http://localhost:3001)
-- **Backend API**: [http://localhost:5001](http://localhost:5001)
-
----
-
-## 7. Post-Deployment Setup
-
-### Step 1: Access the Application
-
-1. Open your web browser
-2. Navigate to [http://localhost:3001](http://localhost:3001)
-3. You should see the HR Onboard login page
-
-### Step 2: Default Login Credentials
-
-#### HR Admin:
-
-- **Email**: `hr@nxzen.com`
-- **Password**: `hr123`
-
-#### Manager:
-
-- **Email**: `strawhatluff124@gmail.com`
-- **Password**: `luffy123`
-
-#### Test Manager:
-
-- **Email**: `test.manager@company.com`
-- **Password**: `manager123`
-
-### Step 3: Create Your First Employee
-
-1. Login as HR Admin
-2. Navigate to "Employee Management"
-3. Add new employees using the employee form
-4. Set up manager-employee relationships
-
-### Step 4: Configure System Settings (Optional)
-
-1. Update company information
-2. Configure leave policies
-3. Set up expense categories
-4. Upload document templates
-
----
-
-## 8. Troubleshooting
-
-### Common Issues and Solutions
-
-#### Issue 1: Database Connection Failed
-
-**Error**: "Cannot connect to PostgreSQL"
-**Solutions**:
-
-1. Check if PostgreSQL is running:
-   ```bash
-   # Check PostgreSQL status
-   pg_isready -p 5432
-   ```
-2. Verify database credentials in `backend/config.env`
-3. Ensure database `onboardd` exists
-4. Check firewall settings
-
-#### Issue 2: Port Already in Use
-
-**Error**: "Port 5001 already in use" or "Port 3001 already in use"
-**Solutions**:
-
-1. Kill existing processes:
-
-   ```bash
-   # Kill process on port 5001
-   npx kill-port 5001
-
-   # Kill process on port 3001
-   npx kill-port 3001
-   ```
-
-2. Or change ports in configuration files
-
-#### Issue 3: npm Install Fails
-
-**Error**: "npm install failed"
-**Solutions**:
-
-1. Clear npm cache:
-   ```bash
-   npm cache clean --force
-   ```
-2. Delete node_modules and try again:
-   ```bash
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
-3. Use yarn instead of npm:
-   ```bash
-   yarn install
-   ```
-
-#### Issue 4: Frontend Build Fails
-
-**Error**: "npm run build failed"
-**Solutions**:
-
-1. Check Node.js version (must be 16+)
-2. Increase memory limit:
-   ```bash
-   export NODE_OPTIONS="--max-old-space-size=4096"
-   npm run build
-   ```
-
-#### Issue 5: Tables Not Created
-
-**Error**: "Migration failed" or "Tables missing"
-**Solutions**:
-
-1. Run migration manually:
-   ```bash
-   psql -U postgres -d onboardd -f backend/migrations/002_complete_database_setup.sql
-   ```
-2. Check database permissions
-3. Verify PostgreSQL version (12+)
-
-### Logs and Debugging
-
-- Backend logs: `backend/server.log`
-- Browser console: F12 → Console tab
-- Database logs: PostgreSQL log files
-
----
-
-## 9. Database Schema Information
-
-### Tables Created (31 Total):
-
-1. **users** - User authentication and profiles
-2. **employee_forms** - Employee onboarding forms
-3. **employee_master** - Master employee data
-4. **onboarded_employees** - Onboarded employee tracking
-5. **managers** - Manager master data
-6. **departments** - Department master data
-7. **interns** - Intern details
-8. **full_time_employees** - Full-time employee details
-9. **contract_employees** - Contract employee details
-10. **document_templates** - Document templates
-11. **document_collection** - Document collection status
-12. **employee_documents** - Employee document mapping
-13. **documents** - Document storage
-14. **attendance** - Employee attendance records
-15. **attendance_settings** - Attendance configuration
-16. **manager_employee_mapping** - Manager-employee relationships
-17. **leave_types** - Leave type master data
-18. **leave_balances** - Leave balance tracking
-19. **leave_requests** - Leave request records
-20. **leave_type_balances** - Leave type specific balances
-21. **monthly_leave_accruals** - Monthly leave accrual records
-22. **comp_off_balances** - Compensatory off balances
-23. **expense_categories** - Expense category master
-24. **expense_requests** - Expense requests
-25. **expenses** - Expense records
-26. **expense_attachments** - Expense attachment files
-27. **employee_notifications** - Employee notifications
-28. **company_emails** - Company email management
-29. **system_settings** - System configuration
-30. **migration_log** - Database migration tracking
-31. **relations** - Employee relationship data
-
----
-
-## 10. Production Deployment Notes
-
-### For Production Environment:
-
-1. **Change default passwords** for all accounts
-2. **Set strong JWT_SECRET** in production
-3. **Configure proper email settings** for notifications
-4. **Set up SSL/HTTPS** for secure connections
-5. **Configure reverse proxy** (nginx/Apache) if needed
-6. **Set up database backups**
-7. **Monitor application logs**
-8. **Configure firewall rules**
-
-### Security Checklist:
-
-- [ ] Change all default passwords
-- [ ] Set secure JWT secret
-- [ ] Enable HTTPS
-- [ ] Configure CORS properly
-- [ ] Set up database encryption
-- [ ] Regular security updates
-- [ ] Monitor access logs
-
----
-
-## 11. Support
-
-If you encounter any issues:
-
-1. Check the troubleshooting section above
-2. Review log files for error messages
-3. Ensure all prerequisites are properly installed
-4. Verify database connection and permissions
-
----
-
-**🎉 Congratulations! Your HR Onboard System is now ready to use!**
-
-For any questions or support, refer to the troubleshooting section or check the application logs.
+Your HR management system is now deployed and ready to use! 🎉
