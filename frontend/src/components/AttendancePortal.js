@@ -32,7 +32,7 @@ const AttendancePortal = () => {
       console.log("🔐 Axios headers:", axios.defaults.headers.common);
 
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/attendance/calendar?month=${month}&year=${year}`
+        `/attendance/calendar?month=${month}&year=${year}`
       );
       console.log("✅ Attendance data:", response.data);
       setAttendance(response.data.calendar);
@@ -60,7 +60,7 @@ const AttendancePortal = () => {
       );
 
       const response = await axios.post(
-        "http://149.102.158.71:5008/api/attendance/mark",
+        "/attendance/mark",
         {
           date: format(date, "yyyy-MM-dd"),
           status,

@@ -34,7 +34,7 @@ const DocumentStatus = ({
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/validation/${employeeId}`,
+        `/documents/validation/${employeeId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setValidation(response.data.validation);
@@ -84,7 +84,7 @@ const DocumentStatus = ({
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/employee/${employeeId}`,
+        `/documents/employee/${employeeId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setUploadedFiles(response.data);
@@ -180,7 +180,7 @@ const DocumentStatus = ({
 
       // Find the document ID for this type from document_collection
       const documents = await axios.get(
-        `http://149.102.158.71:5008/api/hr/document-collection/employee/${employeeId}`,
+        `/hr/document-collection/employee/${employeeId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
 
@@ -196,7 +196,7 @@ const DocumentStatus = ({
 
       if (docToDelete) {
         await axios.delete(
-          `http://149.102.158.71:5008/api/hr/document-collection/${docToDelete.id}`,
+          `/hr/document-collection/${docToDelete.id}`,
           { headers: { Authorization: `Bearer ${token}` } }
         );
 
@@ -242,7 +242,7 @@ const DocumentStatus = ({
 
       const token = localStorage.getItem("token");
       await axios.post(
-        `http://149.102.158.71:5008/api/documents/upload/${employeeId}`,
+        `/documents/upload/${employeeId}`,
         formData,
         {
           headers: {
@@ -266,7 +266,7 @@ const DocumentStatus = ({
       console.log("🔍 Downloading document ID:", documentId);
 
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/download/${documentId}`,
+        `/documents/download/${documentId}`,
         {
           headers: { Authorization: `Bearer ${token}` },
           responseType: "blob",
@@ -753,7 +753,7 @@ const DocumentStatus = ({
                   .match(/\.(jpg|jpeg|png|gif|bmp|webp)$/)) ? (
                 <div className="text-center">
                   <img
-                    src={`http://149.102.158.71:5008/api/documents/preview/${selectedFile.id}`}
+                    src={`/documents/preview/${selectedFile.id}`}
                     alt={selectedFile.file_name || "Image"}
                     className="w-full h-auto max-h-96 object-contain mx-auto"
                     onError={(e) => {
@@ -784,7 +784,7 @@ const DocumentStatus = ({
                   selectedFile.file_name?.toLowerCase().endsWith(".pdf")) ? (
                 <div className="text-center">
                   <iframe
-                    src={`http://149.102.158.71:5008/api/documents/preview/${selectedFile.id}`}
+                    src={`/documents/preview/${selectedFile.id}`}
                     className="w-full h-96 border border-gray-300 rounded-lg"
                     title={selectedFile.file_name || "PDF Preview"}
                     onError={(e) => {

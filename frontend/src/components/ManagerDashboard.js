@@ -40,7 +40,7 @@ const ManagerDashboard = () => {
       }
 
       const response = await fetch(
-        "http://149.102.158.71:5008/api/manager/dashboard",
+        "/manager/dashboard",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -72,7 +72,7 @@ const ManagerDashboard = () => {
       if (!token) return;
 
       const response = await fetch(
-        `http://149.102.158.71:5008/api/leave/balances/${employeeId}`,
+        `/leave/balances/${employeeId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

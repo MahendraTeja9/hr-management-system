@@ -36,7 +36,7 @@ const DocumentUploadSection = ({
   const fetchRequirements = useCallback(async () => {
     try {
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/requirements`
+        `/documents/requirements`
       );
       setRequirements(response.data);
 
@@ -64,7 +64,7 @@ const DocumentUploadSection = ({
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/employee/${employeeId}`,
+        `/documents/employee/${employeeId}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -86,7 +86,7 @@ const DocumentUploadSection = ({
 
       // Also fetch validation status
       const validationResponse = await axios.get(
-        `http://149.102.158.71:5008/api/documents/validation/${employeeId}`,
+        `/documents/validation/${employeeId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setValidation(validationResponse.data.validation);
@@ -99,7 +99,7 @@ const DocumentUploadSection = ({
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/employee/form-status`,
+        `/employee/form-status`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -145,7 +145,7 @@ const DocumentUploadSection = ({
 
       const token = localStorage.getItem("token");
       await axios.post(
-        `http://149.102.158.71:5008/api/documents/upload/${employeeId}`,
+        `/documents/upload/${employeeId}`,
         formData,
         {
           headers: {
@@ -174,7 +174,7 @@ const DocumentUploadSection = ({
     try {
       const token = localStorage.getItem("token");
       await axios.post(
-        `http://149.102.158.71:5008/api/employee/save-draft`,
+        `/employee/save-draft`,
         {
           employeeId,
           documents: uploadedDocuments,

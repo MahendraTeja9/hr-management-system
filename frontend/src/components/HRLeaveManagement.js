@@ -17,7 +17,7 @@ const HRLeaveManagement = () => {
 
       // Use axios defaults (set by AuthContext)
       const response = await axios.get(
-        "http://149.102.158.71:5008/api/hr/leave-requests"
+        "/hr/leave-requests"
       );
       console.log("✅ Leave requests fetched:", response.data);
       setLeaveRequests(response.data.leaveRequests || []);
@@ -53,7 +53,7 @@ const HRLeaveManagement = () => {
 
       // Use axios defaults (set by AuthContext)
       await axios.put(
-        `http://149.102.158.71:5008/api/hr/leave-requests/${requestId}`,
+        `/hr/leave-requests/${requestId}`,
         { status }
       );
 

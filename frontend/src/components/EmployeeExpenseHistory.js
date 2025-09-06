@@ -303,7 +303,7 @@ const EmployeeExpenseHistory = ({ onNavigateToSubmit }) => {
                     Attachment
                   </div>
                   <a
-                    href={`http://149.102.158.71:5008${expense.attachment_url}`}
+                    href={`/uploads${expense.attachment_url}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 bg-blue-50 rounded-lg px-3 py-2"

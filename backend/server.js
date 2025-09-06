@@ -33,10 +33,12 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
-// CORS - Production configuration
+// CORS - Environment-based configuration
+const corsOrigin = process.env.CORS_ORIGIN || (process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'http://149.102.158.71:3008');
+
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN || "http://149.102.158.71:3008",
+    origin: corsOrigin,
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD"],
     allowedHeaders: [
@@ -59,7 +61,7 @@ app.options("*", cors());
 
 // Additional CORS headers for all responses
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN || "http://149.102.158.71:3008");
+  res.header("Access-Control-Allow-Origin", corsOrigin);
   res.header(
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD"
@@ -179,11 +181,13 @@ app.use("*", (req, res) => {
 // Start server
 const startServer = async () => {
   try {
-    // Temporarily skip database initialization to get server running
-    // await connectDB();
+    // Connect to database (enabled for both local and production)
+    await connectDB();
     app.listen(PORT, () => {
       console.log(`🚀 Server running on port ${PORT}`);
+      console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
       console.log(`📧 Email configured for: ${process.env.EMAIL_USER}`);
+      console.log(`🔗 CORS Origin: ${corsOrigin}`);
     });
   } catch (error) {
     console.error("❌ Failed to start server:", error);

@@ -1,0 +1,32 @@
+services:
+  # Backend API for Local Development (without database)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: onboardd-backend-local
+    environment:
+      - NODE_ENV=development
+      - DB_HOST=host.docker.internal
+      - DB_PORT=5432
+      - DB_NAME=onboardd
+      - DB_USER=postgres
+      - DB_PASSWORD=Maahi123
+      - PORT=5001
+      - JWT_SECRET=f5229580f156aa586d01e7e2f3c1e491c2c5f9ddad443f624dab69d873928e8d
+      - JWT_EXPIRES_IN=7d
+      - CORS_ORIGIN=http://localhost:3000
+      - EMAIL_HOST=smtp.gmail.com
+      - EMAIL_PORT=465
+      - EMAIL_SECURE=true
+      - EMAIL_USER=mahendratejak9@gmail.com
+      - EMAIL_PASS=clfh lkfr jahr mzew
+      - EMAIL_FROM=hr@nxzen.com
+      - EMAIL_ENABLED=false
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
+    volumes:
+      - ./backend/uploads:/app/uploads
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

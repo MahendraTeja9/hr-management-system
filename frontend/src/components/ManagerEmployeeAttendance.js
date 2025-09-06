@@ -47,7 +47,7 @@ const ManagerEmployeeAttendance = () => {
       }
 
       const response = await fetch(
-        "http://149.102.158.71:5008/api/manager/employees",
+        "/manager/employees",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -97,7 +97,7 @@ const ManagerEmployeeAttendance = () => {
       }
 
       const response = await fetch(
-        `http://149.102.158.71:5008/api/manager/employee/${empId}/attendance`,
+        `/manager/employee/${empId}/attendance`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

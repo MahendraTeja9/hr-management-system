@@ -8,7 +8,23 @@ A comprehensive full-stack application for managing employee onboarding, documen
 
 - 📋 **[QUICK_START.md](QUICK_START.md)** - 5-minute setup guide
 - 📖 **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** - Complete step-by-step instructions
+- 🔧 **[DUAL_ENVIRONMENT_SETUP.md](DUAL_ENVIRONMENT_SETUP.md)** - Local & Production setup guide
 - 🔧 **[Troubleshooting](#troubleshooting)** - Common issues and solutions
+
+## 🌍 Dual Environment Support
+
+This application now supports both **local development** and **production** environments seamlessly:
+
+### Quick Setup
+- **Windows**: Run `setup.bat` and choose your environment
+- **Linux/Mac**: Run `./setup.sh` and choose your environment
+- **Manual**: Follow the [DUAL_ENVIRONMENT_SETUP.md](DUAL_ENVIRONMENT_SETUP.md) guide
+
+### Environment Features
+- ✅ **Automatic configuration** based on environment
+- ✅ **No code changes** needed when switching environments
+- ✅ **Production-safe** - existing production setup remains unchanged
+- ✅ **Local development** with localhost database and API endpoints
 
 ## 🚀 Features
 

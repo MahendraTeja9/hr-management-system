@@ -103,7 +103,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
   const fetchAvailableManagers = async () => {
     try {
       const response = await axios.get(
-        "http://149.102.158.71:5008/api/hr/master-managers"
+        "/hr/master-managers"
       );
       console.log(
         "🔍 Fetched managers from master table:",
@@ -120,7 +120,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
     try {
       setLoading(true);
       const response = await axios.get(
-        "http://149.102.158.71:5008/api/hr/employee-forms"
+        "/hr/employee-forms"
       );
       setEmployeeForms(response.data.forms);
     } catch (error) {
@@ -206,7 +206,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
   const handleUpdateEmployee = async (updatedData) => {
     try {
       await axios.put(
-        `http://149.102.158.71:5008/api/hr/employee-forms/${editingEmployee.id}`,
+        `/hr/employee-forms/${editingEmployee.id}`,
         updatedData
       );
       toast.success("Employee details updated successfully!");
@@ -233,7 +233,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
     ) {
       try {
         await axios.delete(
-          `http://149.102.158.71:5008/api/hr/employee-forms/${formId}`
+          `/hr/employee-forms/${formId}`
         );
         toast.success("Form deleted successfully!");
         fetchEmployeeForms();
@@ -255,7 +255,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
     ) {
       try {
         await axios.put(
-          `http://149.102.158.71:5008/api/hr/employee-forms/${form.id}/approve`,
+          `/hr/employee-forms/${form.id}/approve`,
           {
             action: "approve",
           }
@@ -281,7 +281,7 @@ const EmployeeFormManagement = ({ onRefresh }) => {
     ) {
       try {
         await axios.put(
-          `http://149.102.158.71:5008/api/hr/employee-forms/${form.id}/approve`,
+          `/hr/employee-forms/${form.id}/approve`,
           {
             action: "reject",
           }

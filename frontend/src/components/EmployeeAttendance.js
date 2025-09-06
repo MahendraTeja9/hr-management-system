@@ -65,7 +65,7 @@ const EmployeeAttendance = () => {
       }
 
       const response = await fetch(
-        `http://149.102.158.71:5008/api/attendance/my-attendance?start_date=${startDate}&end_date=${endDate}`,
+        `/attendance/my-attendance?start_date=${startDate}&end_date=${endDate}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -138,7 +138,7 @@ const EmployeeAttendance = () => {
       }
 
       const response = await fetch(
-        "http://149.102.158.71:5008/api/attendance/settings",
+        "/attendance/settings",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -178,7 +178,7 @@ const EmployeeAttendance = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        "http://149.102.158.71:5008/api/attendance/mark",
+        "/attendance/mark",
         {
           method: "POST",
           headers: {

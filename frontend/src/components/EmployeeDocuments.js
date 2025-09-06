@@ -35,7 +35,7 @@ const EmployeeDocuments = ({ employeeId, employeeName, employmentType }) => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/employee/${employeeId}`,
+        `/documents/employee/${employeeId}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setDocuments(response.data);
@@ -53,7 +53,7 @@ const EmployeeDocuments = ({ employeeId, employeeName, employmentType }) => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/validation/${employeeId}/${employmentType}`,
+        `/documents/validation/${employeeId}/${employmentType}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
       setValidation(response.data.validation);
@@ -66,7 +66,7 @@ const EmployeeDocuments = ({ employeeId, employeeName, employmentType }) => {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://149.102.158.71:5008/api/documents/download/${documentId}`,
+        `/documents/download/${documentId}`,
         {
           headers: { Authorization: `Bearer ${token}` },
           responseType: "blob",
@@ -385,7 +385,7 @@ const EmployeeDocuments = ({ employeeId, employeeName, employmentType }) => {
               <div className="border border-gray-300 rounded-lg p-4 bg-gray-50 text-center">
                 {selectedDocument.mime_type?.includes("image") ? (
                   <img
-                    src={`http://149.102.158.71:5008/${selectedDocument.file_url}`}
+                    src={`/uploads/${selectedDocument.file_url}`}
                     alt={selectedDocument.file_name}
                     className="max-w-full max-h-96 mx-auto rounded"
                   />
@@ -394,7 +394,7 @@ const EmployeeDocuments = ({ employeeId, employeeName, employmentType }) => {
                     <FaFilePdf className="mx-auto h-16 w-16 text-red-500 mb-4" />
                     <p className="text-gray-600 mb-4">PDF Preview</p>
                     <iframe
-                      src={`http://149.102.158.71:5008/${selectedDocument.file_url}`}
+                      src={`/uploads/${selectedDocument.file_url}`}
                       className="w-full h-96 border border-gray-300 rounded"
                       title={selectedDocument.file_name}
                     />

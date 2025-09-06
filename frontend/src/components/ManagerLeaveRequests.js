@@ -38,7 +38,7 @@ const ManagerLeaveRequests = () => {
       }
 
       const response = await fetch(
-        "http://149.102.158.71:5008/api/manager/leave-requests",
+        "/manager/leave-requests",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -68,7 +68,7 @@ const ManagerLeaveRequests = () => {
     try {
       const token = localStorage.getItem("token");
       const response = await fetch(
-        `http://149.102.158.71:5008/api/manager/leave-requests/${selectedRequest.id}`,
+        `/manager/leave-requests/${selectedRequest.id}`,
         {
           method: "PUT",
           headers: {
