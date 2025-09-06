@@ -32,7 +32,7 @@ const AttendancePortal = () => {
       console.log("🔐 Axios headers:", axios.defaults.headers.common);
 
       const response = await axios.get(
-        `/attendance/calendar?month=${month}&year=${year}`
+        `/api/attendance/calendar?month=${month}&year=${year}`
       );
       console.log("✅ Attendance data:", response.data);
       setAttendance(response.data.calendar);

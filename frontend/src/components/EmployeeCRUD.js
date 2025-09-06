@@ -129,7 +129,7 @@ const EmployeeCRUD = () => {
       if (!selectedEmployee) return;
 
       await axios.put(
-        `/hr/employees/${selectedEmployee.id}`,
+        `/api/hr/employees/${selectedEmployee.id}`,
         formData
       );
 
@@ -147,7 +147,7 @@ const EmployeeCRUD = () => {
   const handleView = async (employee) => {
     try {
       const response = await axios.get(
-        `/hr/employees/${employee.id}`
+        `/api/hr/employees/${employee.id}`
       );
       setSelectedEmployee(response.data.employee);
       setShowViewModal(true);
@@ -171,7 +171,7 @@ const EmployeeCRUD = () => {
     }
 
     try {
-      await axios.delete(`/hr/employees/${employee.id}`);
+      await axios.delete(`/api/hr/employees/${employee.id}`);
       toast.success("Employee deleted successfully");
       fetchEmployees();
     } catch (error) {

@@ -72,7 +72,7 @@ const ManagerDashboard = () => {
       if (!token) return;
 
       const response = await fetch(
-        `/leave/balances/${employeeId}`,
+        `/api/leave/balances/${employeeId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

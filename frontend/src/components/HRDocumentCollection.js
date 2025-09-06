@@ -234,7 +234,7 @@ const HRDocumentCollection = () => {
   const handleStatusUpdate = async (documentId, newStatus) => {
     try {
       console.log("🔍 Updating document status:", { documentId, newStatus });
-      await axios.put(`/hr/document-collection/${documentId}`, {
+      await axios.put(`/api/hr/document-collection/${documentId}`, {
         status: newStatus,
       });
       toast.success("Document status updated successfully");

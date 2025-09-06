@@ -116,7 +116,7 @@ const HRConfig = () => {
 
     try {
       const url = editingLeaveType
-        ? `/hr-config/leave-types/${editingLeaveType.id}`
+        ? `/api/hr-config/leave-types/${editingLeaveType.id}`
         : "/hr-config/leave-types";
 
       const method = editingLeaveType ? "put" : "post";
@@ -170,7 +170,7 @@ const HRConfig = () => {
     }
 
     try {
-      await axios.delete(`/hr-config/leave-types/${id}`, {
+      await axios.delete(`/api/hr-config/leave-types/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       toast.success("Leave type deleted successfully!");
@@ -212,7 +212,7 @@ const HRConfig = () => {
 
     try {
       const url = editingDepartment
-        ? `/hr-config/departments/${editingDepartment.id}`
+        ? `/api/hr-config/departments/${editingDepartment.id}`
         : "/hr-config/departments";
 
       const method = editingDepartment ? "put" : "post";
@@ -265,7 +265,7 @@ const HRConfig = () => {
     }
 
     try {
-      await axios.delete(`/hr-config/departments/${id}`, {
+      await axios.delete(`/api/hr-config/departments/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       toast.success("Department deleted successfully!");

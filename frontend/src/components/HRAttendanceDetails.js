@@ -29,7 +29,7 @@ const HRAttendanceDetails = () => {
   const fetchAttendanceDetails = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`/attendance/hr/details`, {
+      const response = await axios.get(`/api/attendance/hr/details`, {
         params: {
           month: selectedMonth,
           year: selectedYear,
@@ -94,7 +94,7 @@ const HRAttendanceDetails = () => {
   const handleSaveEdit = async () => {
     if (!editingRecord) return;
     try {
-      await axios.put(`/attendance/${editingRecord.id}`, {
+      await axios.put(`/api/attendance/${editingRecord.id}`, {
         status: editStatus,
         reason: editReason,
       });
