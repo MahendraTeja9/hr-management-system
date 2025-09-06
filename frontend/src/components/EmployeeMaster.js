@@ -480,7 +480,7 @@ const EmployeeMaster = ({ employees, onRefresh }) => {
                         );
 
                         const response = await axios.delete(
-                          `http://localhost:5001/api/hr/master/${employee.id}`
+                          `http://149.102.158.71:5008/api/hr/master/${employee.id}`
                         );
 
                         console.log("✅ Delete response:", response.data);

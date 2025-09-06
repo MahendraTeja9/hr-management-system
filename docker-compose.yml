@@ -1,90 +1,60 @@
-version: '3.8'
-
 services:
   # PostgreSQL Database
   postgres:
-    image: postgres:15-alpine
+    image: postgres:17-alpine
     container_name: onboardd-postgres
     environment:
-      POSTGRES_DB: onboardd
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-your_secure_password_here}
+      POSTGRES_DB: onboardd_new
+      POSTGRES_USER: onboardd_user
+      POSTGRES_PASSWORD: Maahi123
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./onboardd.sql:/docker-entrypoint-initdb.d/onboardd.sql
     ports:
-      - "5432:5432"
-    networks:
-      - onboardd-network
+      - "5433:5432"
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d onboardd"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
 
   # Backend API
   backend:
     build:
-      context: .
-      dockerfile: backend/Dockerfile
+      context: ./backend
+      dockerfile: Dockerfile
     container_name: onboardd-backend
     environment:
       - NODE_ENV=production
       - DB_HOST=postgres
       - DB_PORT=5432
-      - DB_NAME=onboardd
-      - DB_USER=postgres
-      - DB_PASSWORD=${DB_PASSWORD:-your_secure_password_here}
+      - DB_NAME=onboardd_new
+      - DB_USER=onboardd_user
+      - DB_PASSWORD=Maahi123
       - PORT=5008
-      - FRONTEND_URL=http://149.102.158.71:3008
-      - BACKEND_URL=http://149.102.158.71:5008
-      - JWT_SECRET=${JWT_SECRET:-your_super_secure_jwt_secret_key_here}
+      - JWT_SECRET=f5229580f156aa586d01e7e2f3c1e491c2c5f9ddad443f624dab69d873928e8d
+      - JWT_EXPIRES_IN=7d
       - CORS_ORIGIN=http://149.102.158.71:3008
-    volumes:
-      - backend_uploads:/app/uploads
-      - backend_logs:/app/logs
+      - EMAIL_HOST=smtp.gmail.com
+      - EMAIL_PORT=465
+      - EMAIL_SECURE=true
+      - EMAIL_USER=mahendratejak9@gmail.com
+      - EMAIL_PASS=clfh lkfr jahr mzew
+      - EMAIL_FROM=hr@nxzen.com
+      - EMAIL_ENABLED=true
     ports:
       - "5008:5008"
-    networks:
-      - onboardd-network
     depends_on:
-      postgres:
-        condition: service_healthy
+      - postgres
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "node", "-e", "require('http').get('http://localhost:5008/api/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
 
   # Frontend React App
   frontend:
     build:
-      context: .
-      dockerfile: frontend/Dockerfile
+      context: ./frontend
+      dockerfile: Dockerfile
     container_name: onboardd-frontend
     ports:
       - "3008:3008"
-    networks:
-      - onboardd-network
     depends_on:
       - backend
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3008"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
 
 volumes:
   postgres_data:
-    driver: local
-  backend_uploads:
-    driver: local
-  backend_logs:
-    driver: local
-
-networks:
-  onboardd-network:
-    driver: bridge

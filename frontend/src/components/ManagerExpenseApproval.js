@@ -234,7 +234,7 @@ const ManagerExpenseApproval = () => {
                           Attachment
                         </h4>
                         <a
-                          href={`http://localhost:5001${expense.attachment_url}`}
+                          href={`http://149.102.158.71:5008${expense.attachment_url}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 rounded-lg border border-blue-200 hover:bg-blue-100 transition-colors duration-200"

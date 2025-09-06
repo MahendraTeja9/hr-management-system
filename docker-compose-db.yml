@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: onboardd-postgres
+    environment:
+      POSTGRES_DB: onboardd_new
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Maahi123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./onboardd.sql:/docker-entrypoint-initdb.d/onboardd.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

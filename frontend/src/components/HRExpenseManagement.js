@@ -363,7 +363,7 @@ const HRExpenseManagement = () => {
                         Attachment
                       </h4>
                       <a
-                        href={`http://localhost:5001${expense.attachment_url}`}
+                        href={`http://149.102.158.71:5008${expense.attachment_url}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800"
@@ -699,7 +699,7 @@ const HRExpenseManagement = () => {
                 <div className="mt-6">
                   <h4 className="font-medium text-gray-700 mb-3">Attachment</h4>
                   <a
-                    href={`http://localhost:5001${selectedExpense.attachment_url}`}
+                    href={`http://149.102.158.71:5008${selectedExpense.attachment_url}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800"

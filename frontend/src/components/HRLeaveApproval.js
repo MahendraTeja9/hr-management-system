@@ -35,7 +35,7 @@ const HRLeaveApproval = () => {
       }
 
       const response = await axios.get(
-        "http://localhost:5001/api/leave/hr/pending",
+        "http://149.102.158.71:5008/api/leave/hr/pending",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -58,7 +58,7 @@ const HRLeaveApproval = () => {
         return;
       }
 
-      const response = await axios.get("http://localhost:5001/api/leave/all", {
+      const response = await axios.get("http://149.102.158.71:5008/api/leave/all", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -71,7 +71,7 @@ const HRLeaveApproval = () => {
 
   const fetchLeaveTypes = async () => {
     try {
-      const response = await axios.get("http://localhost:5001/api/leave/types");
+      const response = await axios.get("http://149.102.158.71:5008/api/leave/types");
       setLeaveTypes(response.data);
     } catch (error) {
       console.error("Error fetching leave types:", error);
@@ -90,7 +90,7 @@ const HRLeaveApproval = () => {
 
     try {
       await axios.put(
-        `http://localhost:5001/api/leave/hr/${request.id}/approve`,
+        `http://149.102.158.71:5008/api/leave/hr/${request.id}/approve`,
         { action, notes: "" },
         {
           headers: {
@@ -123,7 +123,7 @@ const HRLeaveApproval = () => {
 
     try {
       const response = await axios.put(
-        `http://localhost:5001/api/leave/hr/${selectedRequest.id}/approve`,
+        `http://149.102.158.71:5008/api/leave/hr/${selectedRequest.id}/approve`,
         approvalData,
         {
           headers: {

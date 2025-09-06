@@ -57,7 +57,7 @@ const HRDashboard = () => {
     try {
       console.log("🔍 Fetching employees...");
       const response = await axios.get(
-        "http://localhost:5001/api/hr/employees"
+        "http://149.102.158.71:5008/api/hr/employees"
       );
       console.log("✅ Employees fetched:", response.data);
       // setEmployees(response.data.employees); // Unused - handled by EmployeeCRUD component
@@ -70,7 +70,7 @@ const HRDashboard = () => {
   const fetchMasterEmployees = async () => {
     try {
       console.log("🔍 Fetching master employees...");
-      const response = await axios.get("http://localhost:5001/api/hr/master");
+      const response = await axios.get("http://149.102.158.71:5008/api/hr/master");
       console.log("✅ Master employees fetched:", response.data);
       console.log("📊 Number of employees:", response.data.employees.length);
       setMasterEmployees(response.data.employees);
@@ -82,7 +82,7 @@ const HRDashboard = () => {
 
   const handleAddEmployee = async (employeeData) => {
     try {
-      await axios.post("http://localhost:5001/api/hr/employees", employeeData);
+      await axios.post("http://149.102.158.71:5008/api/hr/employees", employeeData);
       toast.success("Employee added successfully!");
       setShowAddEmployee(false);
       fetchEmployees();

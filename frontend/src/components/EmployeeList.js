@@ -17,7 +17,7 @@ const EmployeeList = ({ employees, onRefresh, onApprove }) => {
   const handleViewDetails = async (employeeId) => {
     try {
       const response = await axios.get(
-        `http://localhost:5001/api/hr/employees/${employeeId}/form`
+        `http://149.102.158.71:5008/api/hr/employees/${employeeId}/form`
       );
       setSelectedEmployee(response.data.form);
     } catch (error) {
@@ -58,7 +58,7 @@ const EmployeeList = ({ employees, onRefresh, onApprove }) => {
       });
 
       await axios.put(
-        `http://localhost:5001/api/hr/employees/${approvalData.userId}/approve`,
+        `http://149.102.158.71:5008/api/hr/employees/${approvalData.userId}/approve`,
         approvalData
       );
       toast.success(`Employee ${approvalData.status} successfully!`);
@@ -85,7 +85,7 @@ const EmployeeList = ({ employees, onRefresh, onApprove }) => {
     ) {
       try {
         await axios.delete(
-          `http://localhost:5001/api/hr/employees/${employeeId}`
+          `http://149.102.158.71:5008/api/hr/employees/${employeeId}`
         );
         toast.success("Employee deleted successfully!");
         onRefresh();
